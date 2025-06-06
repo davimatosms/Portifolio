@@ -788,13 +788,18 @@ body.light-mode #home img#notebook-2-white {
   background: var(--third-color);
 }
 
-#knowledge .card h3 {
+#knowledge .cards h3 {
   margin-block: 1.6rem;
+  text-align: center;
 }
 
-#knowledge .card img {
-  width: 10rem;
+#knowledge .cards img {
+  width: 11rem;
+  height: 11rem;
+  object-fit: contain;
 }
+
+
 
 /*===== CONTACT ===============================================*/
 
